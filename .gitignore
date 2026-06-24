@@ -1,0 +1,104 @@
+# Visual Studio / Rider / VS Code
+
+.vs/
+.idea/
+.vscode/.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.rsuser
+
+# Build outputs
+
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+
+# Project-specific build outputs
+
+Dismemberment/bin/
+Dismemberment/obj/
+
+# NuGet
+
+*.nupkg
+packages/
+.nuget/
+project.lock.json
+project.assets.json
+artifacts/
+
+# Logs
+
+*.log
+ScriptHookVDotNet.log
+Dismemberment_runtime.log
+NOOSE_runtime.log
+NOOSE_config.log
+loading.log
+authoring.log
+validation_report.log
+
+# GTA runtime/generated files
+
+*.bak
+*.tmp
+*.cache
+*.dmp
+*.mdmp
+*.crash
+CrashReport.txt
+MiniDump.dmp
+
+# Local release/package output
+
+release/
+releases/
+release_package/
+release_patch/
+dist/
+_package/
+_publish/
+
+# Local game install copies
+
+Grand Theft Auto V*/
+GTA V*/
+GTA5*/
+
+# Optional: ignore external reference libraries if they are huge
+
+# Keep this commented if you intentionally want external_refs committed.
+
+# external_refs/
+
+# Optional: ignore third-party binary assets in public repos.
+
+# If this is a private repo and you intentionally track install assets, keep these commented.
+
+# Dismemberment/Binaries/DismembermentASI.asi
+
+# Dismemberment/Binaries/mods/
+
+# *.rpf
+
+# *.asi
+
+# *.dll
+
+# Keep source/config/docs tracked
+
+!README.md
+!AGENTS.md
+!docs/
+!Dismemberment/src/
+!Dismemberment/config_files/
+!Dismemberment/Dismemberment.csproj
+!Dismemberment.sln
